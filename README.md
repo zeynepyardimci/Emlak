@@ -2,6 +2,7 @@
 
 Bu proje, bir emlak markasına ait ilanları listelemek, yeni ilan eklemek ve filtreleme yapmak amacıyla geliştirilmiş modern bir web uygulamasıdır. Kullanıcılar ilanları görüntüleyebilir; emlakçı ise yeni ilan ekleyebilir veya ilanları silebilir.
 
+
 🚀 Özellikler
 
 ✅ İlanları listeleme (başlık, açıklama, fiyat, konum, oda sayısı, görseller)
@@ -17,6 +18,7 @@ Bu proje, bir emlak markasına ait ilanları listelemek, yeni ilan eklemek ve fi
 ✅ Sayfa yenilendiğinde ilanların korunması (localStorage)
 
 ✅ Responsive tasarım
+
 
 🛠️ Kullanılan Teknolojiler
 
@@ -34,13 +36,16 @@ Bu proje, bir emlak markasına ait ilanları listelemek, yeni ilan eklemek ve fi
 
 ● localStorage – Verilerin kalıcılığı için
 
+
 📂 Proje Yapısı
 
 bash
 
 Kodu kopyala
 
-src/ ├── components/ # Reusable bileşenler
+src/ 
+
+├── components/ # Reusable bileşenler
 
 ├── pages/ # Ana sayfa, ilan detay, ilan ekleme sayfası
 
@@ -49,6 +54,7 @@ src/ ├── components/ # Reusable bileşenler
 ├── App.tsx # Uygulama yapısı
 
 ├── main.tsx # Giriş noktası
+
 
 📝 Sayfalar
 
