@@ -1,54 +1,57 @@
-# React + TypeScript + Vite
+🏡 Yardımcı Emlak Sitesi
+Bu proje, bir emlak markasına ait ilanları listelemek, yeni ilan eklemek ve filtreleme yapmak amacıyla geliştirilmiş modern bir web uygulamasıdır. Kullanıcılar ilanları görüntüleyebilir; emlakçı ise yeni ilan ekleyebilir veya ilanları silebilir.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Özellikler
+✅ İlanları listeleme (başlık, açıklama, fiyat, konum, oda sayısı, görseller)
+✅ Fiyat aralığına göre filtreleme
+✅ Yeni ilan ekleme
+✅ İlan silme
+✅ İlan detaylarını görme
+✅ Sayfa yenilendiğinde ilanların korunması (localStorage)
+✅ Responsive tasarım
 
-Currently, two official plugins are available:
+🛠️ Kullanılan Teknolojiler
+● React – UI geliştirme
+● TypeScript – Tip güvenliği ve okunabilirlik
+● React Router DOM -Sayfalar arası gezinmeyi sağlar (örneğin ana sayfa, ilan detay, ilan ekleme sayfası)
+● React Hook Form
+● Tailwind CSS – Hızlı ve şık stil tasarımı
+● Context API – Global state yönetimi
+● localStorage – Verilerin kalıcılığı için
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Proje Yapısı
+bash
+Kodu kopyala
+src/
+├── components/       # Reusable bileşenler
+├── pages/            # Ana sayfa, ilan detay, ilan ekleme sayfası
+├── context/          # ListingContext (ilan yönetimi)
+├── App.tsx           # Uygulama yapısı
+├── main.tsx          # Giriş noktası
 
-## Expanding the ESLint configuration
+📝 Sayfalar
+● Ana Sayfa
+● İlanlar
+● İlan Detay Sayfaları
+● Hakkımızda
+● İletişim
+● Admin Paneli
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+⚙️ Kurulum ve Çalıştırma
+Projeyi klonla:
+bash
+Kodu kopyala
+git clone https://github.com/kullanici-adi/emlak-ilan-sitesi.git
+Proje klasörüne gir:
+bash
+Kodu kopyala
+cd emlak-ilan-sitesi
+Bağımlılıkları yükle:
+bash
+Kodu kopyala
+npm install
+Uygulamayı başlat:
+bash
+Kodu kopyala
+npm run dev
+Tarayıcıda http://localhost:5173 adresinden erişebilirsin.
