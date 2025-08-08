@@ -1,9 +1,10 @@
-🏡 Yardımcı Emlak Sitesi
+# 🏡 Yardımcı Emlak Sitesi
 
 Bu proje, bir emlak markasına ait ilanları listelemek, yeni ilan eklemek ve filtreleme yapmak amacıyla geliştirilmiş modern bir web uygulamasıdır. Kullanıcılar ilanları görüntüleyebilir; emlakçı ise yeni ilan ekleyebilir veya ilanları silebilir.
 
+---
 
-🚀 Özellikler
+## 🚀 Özellikler
 
 ✅ İlanları listeleme (başlık, açıklama, fiyat, konum, oda sayısı, görseller)
 
@@ -19,8 +20,9 @@ Bu proje, bir emlak markasına ait ilanları listelemek, yeni ilan eklemek ve fi
 
 ✅ Responsive tasarım
 
+---
 
-🛠️ Kullanılan Teknolojiler
+## 🛠️ Kullanılan Teknolojiler
 
 ● React – UI geliştirme
 
@@ -36,12 +38,9 @@ Bu proje, bir emlak markasına ait ilanları listelemek, yeni ilan eklemek ve fi
 
 ● localStorage – Verilerin kalıcılığı için
 
+---
 
-📂 Proje Yapısı
-
-bash
-
-Kodu kopyala
+## 📂 Proje Yapısı
 
 src/ 
 
@@ -55,8 +54,9 @@ src/
 
 ├── main.tsx # Giriş noktası
 
+---
 
-📝 Sayfalar
+## 📝 Sayfalar
 
 ● Ana Sayfa
 
